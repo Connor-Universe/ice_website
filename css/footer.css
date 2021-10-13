@@ -1,0 +1,81 @@
+div.footer  div.section-one1 div.container-fluid div.row div.col-lg-4 div.container-fluid div.row div.col-6 img{
+    width: 100%;
+    max-height: 85px;
+}
+div.footer div.section-one1 div.container-fluid div.row div.col-lg-4 div.container-fluid div.row div.col-6 div.info p{
+
+ line-height: 1em;    
+}
+div.footer div.row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+div.footer div.section-one1 div.container-fluid div.row div.col-lg-4 div.container-fluid div.row div.col-6 div.info p:hover{
+    color:darkblue;
+   }
+   div.footer div.container-fluid div.row div.col-lg-4 div.container-fluid div.row div.col-6 div.info span.date{
+    color:#bdbdbd;
+    font-size: 12px;
+    font-weight: 400;
+   }
+   div.footer p.head{
+       color: #f2f2f2;
+       font-weight: 700;
+       font-size: 16px;
+   }
+   div.footer p.head:after{
+    position: absolute;
+    height: 3px;
+    width: 56px;
+    top: 12px;
+    background-color:red;
+    content: "";
+    margin-top: 15px;
+    left: 20px;
+   }
+   div.footer{
+       padding-top: 50px;
+       width: 100%;
+;
+   }
+   div.footer div.section-one1{
+ 
+    background-color: #202020;
+   }
+   div.footer div.section-two2{
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   }
+   div.footer div.section-two2 p{
+       text-align: center;
+       color: white;
+   }
+   div.footer div.section-two2 p a{
+       color: red;
+       text-decoration: none;
+   }
+  div.footer div.info p.postname{
+    color: darkred;
+    font-size:16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+div.footer .postdetail{
+    color:white;
+    font-size:13px;
+
+}
+div.footer p.extra{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+
+}
+div.footer p.extra a{
+    color: darkgrey;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}

@@ -1,0 +1,584 @@
+/* start of section one */
+div.section-one,div.section-two,div.section-three,div.section-four{
+    width: 95%;
+    margin: auto;
+}
+
+div.section-one div.container-one img{
+    height: 403px;
+    width: 100%;
+}
+div.section-one div.container-one{
+    position: relative;
+}
+div.section-one div.container-one div.overlay1{
+    position: absolute;
+    background-color: rgba(40,35,40,0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+div.section-one div.col-lg-4{
+    padding: 0;
+}
+div.section-one div.col-lg-8{
+    padding: 0;
+}
+
+div.section-one div.container-one div.category{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #c80815;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    z-index: 5;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 6px;
+    font-size: 11px;
+}
+div.section-one div.container-one div.category:hover{
+    background-color:darkblue;
+    color: white;
+}
+div.section-one div.container-one div.info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+div.section-one div.container-one div.info p{
+    position: relative;
+    font-weight: 500;
+    line-height: 1.4em;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+div.section-one div.container-one div.info span.date{
+    font-size: 12px;
+    color: #ccc;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+div.section-one div.col-lg-8 div.container-two img{
+    width: 100%;
+    height: 199px;
+}
+div.section-one div.col-lg-8 div.container-two{
+    position: relative;
+}
+div.section-one div.col-lg-8 div.container-two div.category{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #c80815;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    z-index: 5;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 6px;
+    font-size: 11px;
+}
+div.section-one div.container-two div.category:hover{
+    background-color:darkblue;
+}
+div.section-one div.container-two div.info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+div.section-one div.container-two div.info p {
+    position: relative;
+    font-weight: 500;
+    line-height: 1.4em;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+div.section-one div.container-two div.info span.date{
+    font-size: 12px;
+    color: #ccc;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+div.section-one div.container-two div.overlay2{
+    position: absolute;
+    background-color: indigo;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+div.section-one div.container-two div.overlay3{
+    position: absolute;
+    background-color:navy;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+div.section-one div.container-two div.overlay4{
+    position: absolute;
+    background-color:green;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+div.section-one div.container-two div.overlay5{
+    position: absolute;
+    background-color:darkgoldenrod;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+div.section-one div.col-lg-8 div.container-fluid div.row div.col-lg-6{
+    padding-left: 1px;
+    padding-bottom: 1px;
+    padding-right: 0;
+
+}
+div.section-one div.col-lg-8 div.container-two div.category:hover{
+    background-color:darkblue;
+    color: white;
+}
+/* end of section one */
+/*start of section two */
+div.section-two {
+    padding-top: 50px;
+}
+div.section-two p.title{
+    color: #1c1c1c;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px 15px 0px 25px;
+    letter-spacing: .4px;
+    font-weight: 700;
+    z-index: 1;
+    position: relative;
+}
+div.section-two p.title:before{
+    position: absolute;
+    content: "";
+    width: 12px;
+    display: inline-block;
+    left: 0;
+    top: 19%;
+    height: 12px;
+    z-index: 5;
+    background-color: darkblue;
+}
+
+div.section-two p.second:after{
+    position: absolute;
+    content: "";
+
+    top: 19%;
+    z-index: 0;
+    width: 59%;
+    border: 4px double #eee;
+    left: 40%;
+}
+div.section-two div.col-lg-8 div.container-fluid div.row div.col-lg-6 div.container-one{
+    position: relative;
+}
+
+div.section-two div.col-lg-8 div.container-fluid div.row div.col-lg-6 div.container-one img{
+    width: 100%;
+    height: 390px;
+}
+div.section-two div.col-lg-8 div.container-fluid div.row div.col-lg-6 div.container-one div.overlay1{
+    position: absolute;
+    background-color: rgba(40,35,40,0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+div.section-two div.container-one div.category{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #c80815;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    z-index: 5;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 6px;
+    font-size: 11px;
+}
+div.section-two div.container-one div.category:hover{
+    background-color:darkblue;
+    color: white;
+}
+div.section-two div.container-one  div.info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+div.section-two div.container-one div.info p{
+    position: relative;
+    font-weight: 500;
+    line-height: 1.4em;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+div.section-two div.container-one div.info span.date{
+    font-size: 12px;
+    color: #ccc;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+div.section-two div.container-fluid div.row div.col-lg-8 div.container-fluid div.row div.col-lg-6 div.container-fluid div.row div.col-6 img{
+    width: 100%;
+    height: 85px;
+}
+div.section-two div.container-fluid div.row div.col-lg-6 div.container-fluid div.row div.col-6 div.info p{
+
+ line-height: 1em;    
+}
+div.section-two div.container-fluid div.row div.col-lg-6 div.container-fluid div.row div.col-6 div.info p:hover{
+    color:darkblue;
+   }
+   div.section-two div.container-fluid div.row div.col-lg-6 div.container-fluid div.row div.col-6 div.info span.date{
+    color:#bdbdbd;
+    font-size: 12px;
+    font-weight: 400;
+   }
+   div.section-two div.container-fluid div.row div.col-lg-6{
+       padding-right: 0;
+       padding-left: 0;
+   }
+   div.section-two div.container-fluid div.row div.col-lg-6 div.container-fluid div.row {
+    margin-bottom: 15px;
+   }
+   div.section-two div.container-fluid div.row div.col-lg-4 div.container-fluid div.row div.col-6 img{
+    width: 100%;
+    max-height: 85px;
+}
+div.section-two div.container-fluid div.row div.col-lg-4 div.container-fluid div.row div.col-6 div.info p{
+
+ line-height: 1em;    
+}
+div.section-two div.container-fluid div.row div.col-lg-4 div.container-fluid div.row div.col-6 div.info p:hover{
+    color:darkblue;
+   }
+   div.section-two div.container-fluid div.row div.col-lg-4 div.container-fluid div.row div.col-6 div.info span.date{
+    color:#bdbdbd;
+    font-size: 12px;
+    font-weight: 400;
+   }
+   div.section-two div.container-fluid div.row div.col-lg-4{
+       padding-right: 0;
+       padding-left: 0;
+   }
+   div.section-two div.container-fluid div.row div.col-lg-4 div.container-fluid div.row {
+    margin-bottom: 15px;
+   }
+   div.info p.postname{
+       color: darkred;
+       font-size:12px;
+       font-weight: 700;
+       text-transform: uppercase;
+   }
+   .postdetail{
+       color:darkslategrey;
+       font-size:10px;
+
+   }
+   .disabled{
+       cursor: not-allowed;
+       opacity: 0.5;
+       color: lightgrey;
+   }
+/* end of section two */
+
+/* start of section three */
+div.section-three{
+    padding-top: 50px;
+}
+div.section-three p.title{
+    color: #1c1c1c;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px 15px 0px 25px;
+    letter-spacing: .4px;
+    font-weight: 700;
+    z-index: 1;
+    position: relative;
+}
+div.section-three p.title:before{
+    position: absolute;
+    content: "";
+    width: 12px;
+    display: inline-block;
+    left: 0;
+    top: 19%;
+    height: 12px;
+    z-index: 5;
+    background-color: darkblue;
+}
+div.section-three p.title:after{
+    position: absolute;
+    content: "";
+
+    top: 19%;
+    z-index: 0;
+    width: 69%;
+    border: 4px double #eee;
+
+}
+div.section-three p.first:after{
+    left: 20%;
+}
+div.section-three p.second:after{
+    position: absolute;
+    content: "";
+
+    top: 19%;
+    z-index: 0;
+    width: 59%;
+    border: 4px double #eee;
+    left: 40%;
+}
+div.section-three div.col-lg-8 div.container-one{
+    position: relative;
+}
+
+div.section-three div.col-lg-8 div.container-one img{
+    width: 100%;
+    height: 190px;
+}
+div.section-three div.col-lg-8 div.container-one div.overlay1{
+    position: absolute;
+    background-color: rgba(40,35,40,0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+div.section-three div.container-one div.category{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #c80815;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    z-index: 5;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 6px;
+    font-size: 11px;
+}
+div.section-three div.container-one div.category:hover{
+    background-color:darkblue;
+    color: white;
+}
+div.section-three div.container-one  div.info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+div.section-three div.container-one div.info p{
+    position: relative;
+    font-weight: 500;
+    line-height: 1.4em;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+div.section-three div.container-one div.info span.date{
+    font-size: 12px;
+    color: #ccc;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+div.section-three div.container-fluid div.row div.col-lg-4 div.facebook{
+
+    background-color:#3B5998 ;
+}
+div.instagram{
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+div.twitter{
+    background-color: #33ccff;
+}
+div.messager{
+    background-color: #007bb7;
+}
+div.social{
+    width: 80%;
+    margin: auto;
+}
+div.social p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.social i{
+    color: white;
+    font-size: 2.3em;
+}
+div.social span.num{
+    color: white;
+    font-size: 1.2em;
+}
+div.social span.info{
+    color: white;
+    font-size: .9em;
+}
+/* end of section three */
+/* start of section four */
+div.section-four{
+    padding-top: 50px;
+}
+div.section-four p.title.first:before{
+    position: absolute;
+    content: "";
+    width: 12px;
+    display: inline-block;
+    left: 0;
+    top: 19%;
+    height: 12px;
+    z-index: 5;
+    background-color: darkblue;
+}
+div.section-four p.title.second:before{
+    position: absolute;
+    content: "";
+    width: 12px;
+    display: inline-block;
+    left: 0;
+    top: 19%;
+    height: 12px;
+    z-index: 5;
+    background-color: darkblue;
+}
+
+div.section-four p.title.first{
+    color: #1c1c1c;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px 15px 0px 25px;
+    letter-spacing: .4px;
+    font-weight: 700;
+    z-index: 1;
+    position: relative;
+}
+div.section-four p.title.second{
+    color: #1c1c1c;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px 15px 0px 25px;
+    letter-spacing: .4px;
+    font-weight: 700;
+    z-index: 1;
+    position: relative;
+}
+div.section-four div.container-fluid div.row div.col-lg-8 div.container-one{
+    position: relative;
+}
+div.section-four div.container-fluid div.row div.col-lg-8 div.container-one p.category{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #c80815;
+    color:white;
+    font-size: 14px;
+}
+div.section-four div.container-fluid div.row div.col-lg-8 div.container-one p.category:hover{
+    background-color:darkblue;
+}
+div.section-four div.container-fluid div.row div.col-lg-8 div.container-fluid div.row{
+    padding-top: 40px;
+}
+div.section-four div.container-fluid div.row div.col-lg-8 div.container-fluid div.row p.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+div.section-four div.container-fluid div.row div.col-lg-8 div.container-fluid div.row p.info{
+    font-size: 14px;
+    color: #919191;
+}
+div.section-four div.container-fluid div.row div.col-lg-8 div.container-fluid div.row p.title:hover{
+    color: #c80815;
+}
+div.section-four div.container-fluid div.row div.col-lg-8 div.container-fluid div.row div.post a.read{
+    background:linear-gradient(#c80815,darkblue);
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: all 2s;
+}
+div.section-four div.container-fluid div.row div.col-lg-8 div.container-fluid div.row div.post a.read:hover{
+    background: black;
+}
+div.section-four span.date{
+    color: lightgrey;
+    font-size: 12px;
+}
+div.section-four img{
+    width: 100%;
+}
+div.section-four div.container-fluid div.row div.col-lg-4 div.container-fluid div.row {
+    padding-top: 30px;
+}
+div.section-four div.container-fluid div.row div.col-lg-4 div.container-fluid div.row p{
+    font-weight:700;
+}
+div.section-two div.info p{
+    font-weight: 900;
+}
+
+/* end of section four */
+@media screen and (max-width:992px){
+    div.col-lg-4{
+        padding-top: 50px;
+    }
+    div.section-two div.col-lg-6{
+        padding-top: 50px;
+    }
+    p.title:after{
+        display: none;
+    }
+
+}

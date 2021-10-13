@@ -1,0 +1,179 @@
+div.main{
+    width: 95%;
+    margin: auto;
+}
+div.container-fluid div.row div.col-lg-8 p.title{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+div.container-fluid div.row div.col-lg-8 ul.breadcrumb a{
+    color: darkslategrey;
+}
+div.container-fluid div.row div.col-lg-8 p.info{
+    color: #5e5e5e;
+    font-size: 14px;
+    line-height: 1.5em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+div.container-fluid div.row div.col-lg-8 h3{
+    padding-bottom: 10px;
+    position: relative;
+}
+div.container-fluid div.row div.col-lg-8 h3:after{
+    position: absolute;
+    height: 3px;
+    width: 180px;
+    top:22px;
+    background-color:red;
+    content: "";
+    margin-top: 15px;
+    left: 20px;
+}
+img{
+    width: 100%;
+}
+h4{
+    padding-top: 40px;
+}
+div.container-fluid div.row div.col-lg-8 div.addthis_inline_share_toolbox{
+    margin-left: 25%;
+}
+div.container-fluid div.row div.col-lg-8 div.container-one{
+    position: relative;
+}
+
+div.container-fluid div.row div.col-lg-8 div.container-one img{
+    width: 100%;
+    height: 250px;
+}
+div.container-fluid div.row div.col-lg-8 div.container-one div.overlay1{
+    position: absolute;
+    background-color: rgba(40,35,40,0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+div.container-fluid div.row div.col-lg-8 div.container-one div.category{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #c80815;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    z-index: 5;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 6px;
+    font-size: 11px;
+}
+div.container-fluid div.row div.col-lg-8 div.container-one div.category:hover{
+    background-color:darkblue;
+    color: white;
+}
+div.container-fluid div.row div.col-lg-8 div.container-one  div.info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+div.container-fluid div.row div.col-lg-8 div.container-one div.info p{
+    position: relative;
+    font-weight: 500;
+    line-height: 1.4em;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+div.container-fluid div.row div.col-lg-8 div.container-one div.info span.date{
+    font-size: 12px;
+    color: #ccc;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+#disqus_thread{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+div.container-fluid div.row div.col-lg-4 p.side{
+    font-size: 18px;
+    color: black;
+    padding-bottom: 10px;
+    font-weight: 700;
+    padding-top: 60px;
+}
+ div.facebook{
+
+    background-color:#3B5998 ;
+}
+div.instagram{
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+div.twitter{
+    background-color: #33ccff;
+}
+div.messager{
+    background-color: #007bb7;
+}
+div.social{
+    width: 80%;
+    margin: auto;
+}
+div.social p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.social i{
+    color: white;
+    font-size: 2.3em;
+}
+div.social span.num{
+    color: white;
+    font-size: 1.2em;
+}
+div.social span.info{
+    color: white;
+    font-size: .9em;
+}
+div.container-fluid div.row div.col-lg-4 div.container-fluid div.row div.col-6 img{
+    width: 100%;
+    max-height: 85px;
+}
+ div.container-fluid div.row div.col-lg-4 div.container-fluid div.row div.col-6 div.info p{
+
+ line-height: 1em;    
+}
+div.col-lg-4 div.row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+div.section-one1 div.container-fluid div.row div.col-lg-4 div.container-fluid div.row div.col-6 div.info p:hover{
+    color:darkblue;
+   }
+ div.container-fluid div.row div.col-lg-4 div.container-fluid div.row div.col-6 div.info span.date{
+    color:#bdbdbd;
+    font-size: 12px;
+    font-weight: 400;
+ }
+ div.info p.postname{
+    color: darkred;
+    font-size:12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.postdetail{
+    color:darkslategrey;
+    font-size:10px;
+
+}

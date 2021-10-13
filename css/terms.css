@@ -1,0 +1,17 @@
+p.title{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+div.main{
+    width: 95%;
+    margin: auto;
+}
+div.text{
+    width:80%;
+    margin: auto;
+
+}
